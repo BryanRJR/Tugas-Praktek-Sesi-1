@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="LatihanCoba1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4NQ-Vc-FKb">
+                                <rect key="frame" x="0.0" y="180" width="390" height="484"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xNc-wk-tq6">
+                                        <rect key="frame" x="20" y="20" width="350" height="96"/>
+                                        <color key="backgroundColor" systemColor="systemMintColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="🧑🏻‍🚀"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="astronoutButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dyX-Nb-nAf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Pz-ac-R18">
+                                        <rect key="frame" x="20" y="136" width="350" height="96"/>
+                                        <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="👩🏻‍🎤"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="singerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IKV-2d-Fb6"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sfk-bm-Iso">
+                                        <rect key="frame" x="20" y="252" width="350" height="96"/>
+                                        <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="🧑🏻‍💻"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="engineerButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cuc-Fd-FNh"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfe-CA-WLo">
+                                        <rect key="frame" x="20" y="368" width="350" height="96"/>
+                                        <color key="backgroundColor" systemColor="systemGrayColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="70"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="🚀"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="8"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="rocketButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Xdf-8C-wXk"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemGray5Color"/>
+                                <constraints>
+                                    <constraint firstItem="xfe-CA-WLo" firstAttribute="leading" secondItem="sfk-bm-Iso" secondAttribute="leading" id="2QB-Ss-KtM"/>
+                                    <constraint firstItem="sfk-bm-Iso" firstAttribute="top" secondItem="6Pz-ac-R18" secondAttribute="bottom" constant="20" id="2YK-WH-gMD"/>
+                                    <constraint firstItem="6Pz-ac-R18" firstAttribute="trailing" secondItem="xNc-wk-tq6" secondAttribute="trailing" id="2g2-H9-Yiw"/>
+                                    <constraint firstItem="6Pz-ac-R18" firstAttribute="leading" secondItem="xNc-wk-tq6" secondAttribute="leading" id="9Cw-N2-Q0C"/>
+                                    <constraint firstItem="xfe-CA-WLo" firstAttribute="top" secondItem="sfk-bm-Iso" secondAttribute="bottom" constant="20" id="MkY-kv-Uab"/>
+                                    <constraint firstAttribute="trailing" secondItem="xNc-wk-tq6" secondAttribute="trailing" constant="20" id="OTT-Ph-sLX"/>
+                                    <constraint firstItem="sfk-bm-Iso" firstAttribute="leading" secondItem="6Pz-ac-R18" secondAttribute="leading" id="YtS-qS-fc4"/>
+                                    <constraint firstItem="xfe-CA-WLo" firstAttribute="trailing" secondItem="sfk-bm-Iso" secondAttribute="trailing" id="b2o-6a-ljG"/>
+                                    <constraint firstItem="xNc-wk-tq6" firstAttribute="top" secondItem="4NQ-Vc-FKb" secondAttribute="top" constant="20" id="dmo-Hk-u5n"/>
+                                    <constraint firstItem="sfk-bm-Iso" firstAttribute="trailing" secondItem="6Pz-ac-R18" secondAttribute="trailing" id="eG8-Oq-gOV"/>
+                                    <constraint firstItem="6Pz-ac-R18" firstAttribute="top" secondItem="xNc-wk-tq6" secondAttribute="bottom" constant="20" id="u3a-Uj-JKk"/>
+                                    <constraint firstItem="xNc-wk-tq6" firstAttribute="leading" secondItem="4NQ-Vc-FKb" secondAttribute="leading" constant="20" id="v7j-5I-wtu"/>
+                                    <constraint firstAttribute="bottom" secondItem="xfe-CA-WLo" secondAttribute="bottom" constant="20" id="xTe-5f-HUb"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4NQ-Vc-FKb" secondAttribute="trailing" id="EUf-n0-0Pc"/>
+                            <constraint firstItem="4NQ-Vc-FKb" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="IXx-5K-dLw"/>
+                            <constraint firstItem="4NQ-Vc-FKb" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="p6Q-wp-Ww6"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="astronoutButton" destination="xNc-wk-tq6" id="VWN-SB-kuu"/>
+                        <outlet property="engineerButton" destination="sfk-bm-Iso" id="7JL-Y1-j6B"/>
+                        <outlet property="rocketButton" destination="xfe-CA-WLo" id="RCJ-WP-vHi"/>
+                        <outlet property="singerButton" destination="6Pz-ac-R18" id="Qnq-hM-oRa"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19.534883720930232" y="3.218884120171674"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGrayColor">
+            <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemMintColor">
+            <color red="0.0" green="0.7803921568627451" blue="0.74509803921568629" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
