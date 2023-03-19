@@ -8,6 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
+
     @IBOutlet weak var rocketButton: UIButton!
     @IBOutlet weak var engineerButton: UIButton!
     @IBOutlet weak var singerButton: UIButton!
